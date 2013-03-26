@@ -1,1 +1,29 @@
 goagent for australian users
+
+A shitty Howto I wrote on Skype
+
+animehunterx: to setup the google app engine
+animehunterx: u need to sign up account
+animehunterx: https://appengine.google.com/
+animehunterx: it requires sms verification
+animehunterx: then u create 10 apps which gives u 10gb per day
+animehunterx: i just name them like:
+net1
+net2
+net3
+etc
+net10
+animehunterx: then u browser to the server folder of the proxy code
+animehunterx: then execute python27 uploader.py
+animehunterx: put in appnames like this:
+net1|net2|net3|....|net10
+animehunterx: then wait for it to upload
+Ben Miller: sweet, thanks
+Ben Miller: will give it a squiz sometime this week
+animehunterx: coolz
+animehunterx: oh u also need to edit proxy.ini and fill in ur app names
+animehunterx: it uses the same format: app1|app2|etc
+animehunterx: oh more thing
+animehunterx: to get https working properly you need to add ca.crt to your browser
+animehunterx: as a trusted root CA
+
